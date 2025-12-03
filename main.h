@@ -77,7 +77,7 @@ int getCardValue(const Card &card){
         case SEVEN: return 7;
         case EIGHT: return 8;
         case NINE: return 9;
-        case TEN:;
+        case TEN:
         case JACK:
         case QUEEN:
         case KING: return 10;
