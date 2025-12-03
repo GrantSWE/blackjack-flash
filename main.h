@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <iostream>
 #include <string>
 #include <random>
@@ -114,14 +117,13 @@ void displayDigitalCard(string value, string suit) {
      /*
      General Layout -
      |------------------|
-     |    2             |
-     |                  |
+     |   2              |
      |         ♥        |
      |                  |
      |                  |
      |                  |
-     |         ♥        |
      |                  |
+     |         ♥        |
      |              2   |
      |------------------|
      */
@@ -154,7 +156,7 @@ void displayDigitalCard(string value, string suit) {
                 continue;
             }
 
-            // Suit 🥲
+            // Suit
             if (value == "2") {
                 if((i == 2 || i == 8) && j == 9) {
                     cout << suit;
@@ -227,3 +229,5 @@ void displayDigitalCard(string value, string suit) {
         cout << endl;
     }
 }
+
+#endif
