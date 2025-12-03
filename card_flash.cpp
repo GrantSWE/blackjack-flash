@@ -86,17 +86,7 @@ void startFlash() {
 
 int main(){
 
-    // startFlash();
-
-    int x;
-    string y;
-    while(x != 5){
-        cout << "Keep going? Stop = 5" << endl;
-        cin >> x;
-        cout << "Enter value" << endl;
-        cin >> y;
-        displayDigitalCard(y, "♥");
-    }
+    startFlash();
 
     return 0;
 }
